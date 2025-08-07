@@ -3,6 +3,6 @@ on:
 
 jobs:
   test:
-    run-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
-      -run: "Deploiement projet"
+      - run: echo "Deploiement projet"
